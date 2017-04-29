@@ -1,5 +1,7 @@
 # jstransformer-string-template
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-string-template.svg)](https://greenkeeper.io/)
+
 [`String-Template`](http://npm.im/string-template) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-string-template/master.svg)](https://travis-ci.org/jstransformers/jstransformer-string-template)

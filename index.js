@@ -1,13 +1,13 @@
 'use strict'
 
-var compile = require('string-template/compile')
+const compile = require('string-template/compile')
 
 exports.name = 'string-template'
 exports.outputFormat = 'html'
 
 exports.compile = function (str) {
-  var template = compile(str)
-  return function (locals) {
+  const template = compile(str)
+  return locals => {
     return template(locals)
   }
 }

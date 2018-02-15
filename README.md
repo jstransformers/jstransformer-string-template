@@ -15,9 +15,9 @@
 ## API
 
 ```js
-var string-template = require('jstransformer')(require('jstransformer-string-template'))
+var template = require('jstransformer')(require('jstransformer-string-template'))
 
-string-template.render('Hello, {name}!', { name: 'World' }).body
+template.render('Hello, {name}!', { name: 'World' }).body
 //=> 'Hello, World!'
 ```
 
